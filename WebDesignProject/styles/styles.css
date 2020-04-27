@@ -4,10 +4,16 @@ header{
    
     text-align: center;
 }
+header img{
+    float: left;
+    height: 100px
+    
+}
 nav{
     background-color: yellow;
-    height: 58px;
+    height: 60px;
     padding: 5px;
+    
 }
 nav ul{
     text-align: center;
@@ -18,7 +24,7 @@ nav ul li{
     background-color: red;
     display: inline;
     padding: 15px;
-    margin: 1px;
+    margin: 2px;
     border: 2px;
 }
 nav ul li:hover{
@@ -34,4 +40,7 @@ aside ul li{
 aside ul li a{
     color: blue;
     text-decoration: none;
+}
+main body img {
+    float: none;
 }
